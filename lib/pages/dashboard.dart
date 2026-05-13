@@ -28,7 +28,7 @@ class DashboardPage extends StatelessWidget {
       "title": "Pertemuan 8",
       "icon": Icons.auto_stories,
       "color": Colors.purple,
-      "page": const TristateExample(),
+      "page": const AutocompletespinPage(),
     },
   ];
 
@@ -132,7 +132,5 @@ class DashboardPage extends StatelessWidget {
 }
 
 
-class AutocompletespinPage {
-  const AutocompletespinPage();
-}
+
 
