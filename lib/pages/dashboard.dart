@@ -3,6 +3,8 @@ import 'package:p6checkbox/pertemuan/pertemuan5.dart';
 import 'package:p6checkbox/pertemuan/pertemuan6.dart';
 import 'package:p6checkbox/pertemuan/pertemuan7.dart';
 import 'package:p6checkbox/pertemuan/pertemuan8.dart';
+import 'package:p6checkbox/pertemuan/pertemuan9.dart';
+
 
 class DashboardPage extends StatelessWidget {
   final List<Map<String, dynamic>> menuItems = [
@@ -29,6 +31,12 @@ class DashboardPage extends StatelessWidget {
       "icon": Icons.auto_stories,
       "color": Colors.purple,
       "page": const AutocompletespinPage(),
+    },
+    {
+      "title": "Pertemuan 9",
+      "icon": Icons.auto_stories,
+      "color": Colors.red,
+      "page": const Pertemuan9Page(),
     },
   ];
 
